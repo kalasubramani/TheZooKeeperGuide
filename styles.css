@@ -1,0 +1,112 @@
+body {
+  background-color: silver;
+  background-image: url(https://www.shutterstock.com/image-vector/world-animal-welfare-day-october-4-2207246975);
+  font-family: sans-serif, "Courier New", Courier;
+}
+h1,
+h3 {
+  text-align: center;
+}
+h3 {
+  text-decoration-line: underline;
+}
+/* Style each section  */
+.sectionStyle {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: blue;
+}
+/* style description text */
+article {
+  text-align: justify;
+  text-wrap: wrap;
+  width: 90%;
+  padding: 5px;
+}
+img {
+  height: 300px;
+  width: 450px;
+}
+.imgStyle {
+  margin-left: auto;
+  margin-right: auto;
+  height: 70%;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  background-color: blueviolet;
+}
+.listStyle {
+  width: 90%;
+}
+/* Styles for container element */
+.divContainer {
+  border: black 2px solid;
+  /* width: 100%; */
+  background-color: aliceblue;
+  align-items: center;
+  font-size: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  /* justify-content:space-evenly; */
+  min-width:200px;
+  /* max-width: 300px; */
+}
+h2 {
+  padding-left: 10%;
+}
+strong,
+u {
+  color: red;
+}
+/* Emphasizes text */
+em {
+  text-decoration-line: underline;
+}
+.stylefooter {
+  font-size: 0.88em;
+  color: gray;
+  margin: auto;
+  text-align: center;
+}
+span {
+  font-style: bold;
+  text-decoration: underline;
+}
+hr {
+  margin-top: 15px;
+  border-color: rgb(122, 107, 107);
+  width: 70%;
+}
+.divNotesToZookeeperInterns {
+  font-size: 0.88em;
+  text-align: center;
+  line-height: 16pt;
+  text-wrap: wrap;
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+}
+.spanSupervisor {
+  text-transform: uppercase;
+}
+.divZooKeeperLogo {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 450px;
+}
+.notesStyle {
+  color: brown;
+  font-size: medium;
+}
+.animalCard{
+  max-width: 600px; 
+  margin:0;
+}
+.animalPicture{
+  max-width: 600px;
+  max-height: 700px;
+}
