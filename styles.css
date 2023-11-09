@@ -12,10 +12,9 @@ h3 {
 }
 /* Style each section  */
 .sectionStyle {
-  width: 100%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
-  background-color: blue;
 }
 /* style description text */
 article {
@@ -35,7 +34,6 @@ img {
   width: 70%;
   display: flex;
   justify-content: center;
-  background-color: blueviolet;
 }
 .listStyle {
   width: 90%;
@@ -43,16 +41,12 @@ img {
 /* Styles for container element */
 .divContainer {
   border: black 2px solid;
-  /* width: 100%; */
+  width: 80%;
   background-color: aliceblue;
   align-items: center;
   font-size: 1em;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
-  /* justify-content:space-evenly; */
-  min-width:200px;
-  /* max-width: 300px; */
 }
 h2 {
   padding-left: 10%;
@@ -101,12 +95,4 @@ hr {
 .notesStyle {
   color: brown;
   font-size: medium;
-}
-.animalCard{
-  max-width: 600px; 
-  margin:0;
-}
-.animalPicture{
-  max-width: 600px;
-  max-height: 700px;
 }
