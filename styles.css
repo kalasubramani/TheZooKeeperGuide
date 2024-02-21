@@ -1,15 +1,12 @@
 body {
-  background-color: silver;
-  background-image: url(https://www.shutterstock.com/image-vector/world-animal-welfare-day-october-4-2207246975);
+  background-color: silver; 
   font-family: sans-serif, "Courier New", Courier;
 }
 h1,
 h3 {
   text-align: center;
 }
-h3 {
-  text-decoration-line: underline;
-}
+
 /* Style each section  */
 .sectionStyle {
   width: 60%;
@@ -26,6 +23,7 @@ article {
 img {
   height: 300px;
   width: 450px;
+  border-radius: 5px;
 }
 .imgStyle {
   margin-left: auto;
@@ -40,7 +38,8 @@ img {
 }
 /* Styles for container element */
 .divContainer {
-  border: black 2px solid;
+  border: rgb(141, 138, 138) 2px solid;
+  border-radius: 5px;
   width: 80%;
   background-color: aliceblue;
   align-items: center;
@@ -64,15 +63,11 @@ em {
   color: gray;
   margin: auto;
   text-align: center;
+  padding:4em;
 }
 span {
   font-style: bold;
   text-decoration: underline;
-}
-hr {
-  margin-top: 15px;
-  border-color: rgb(122, 107, 107);
-  width: 70%;
 }
 .divNotesToZookeeperInterns {
   font-size: 0.88em;
@@ -85,6 +80,7 @@ hr {
 }
 .spanSupervisor {
   text-transform: uppercase;
+  text-decoration: none;
 }
 .divZooKeeperLogo {
   width: 40%;
